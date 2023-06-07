@@ -1,0 +1,69 @@
+
+.btn{
+    --bs-btn-bg: #3B1711;
+    --bs-btn-border-color: #1D2526;
+    --bs-btn-hover-bg: #692018;
+    --bs-btn-hover-border-color:#1D2526;
+    --bs-btn-active-bg: #3B1711;
+}
+
+main{
+    margin-top: 4rem;
+}
+
+.navbar-brand img{
+    width: 45px;
+}
+
+/*Tamanho do carousel*/
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-item img{
+
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-item::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(31, 31, 31));
+    position: absolute;
+}
+
+.nav-link{
+    color: #3B1711;
+}
+
+.nav-link:hover{
+    background: #3B1711;
+    color: white;
+}
+
+.card-menu{
+    border-radius: 10px;
+}
+
+.card-menu img{
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #3B1711
+}
+
+.card-title{
+    color: #3B1711;
+}
+
+.card-text{
+    color: #692018;
+}
+
+footer a{
+    text-decoration: none;
+}
